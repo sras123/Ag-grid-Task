@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './main.css';
 const Main = () => {
   return (
-    <div>
-        <h1>Welcome to the Countries app</h1>
+    <div className='container'>
+        <h1 className='text'>Welcome to the Countries app</h1>
     </div>
   )
 }
