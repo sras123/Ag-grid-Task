@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path='/' element={<Main/>} />
+        <Route exact path='/' element={<Main/>}/>
         <Route exact path='/countries' element={<Countries/>} />
       </Routes>
     </div>
