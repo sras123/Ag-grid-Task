@@ -46,7 +46,7 @@ const Countries = () => {
   return (
     <div>
       <Navbar/>
-    <div className='ag-theme-alpine' style={{height:500}}>
+    <div className='ag-theme-alpine-dark' style={{height:500}}>
       {loading ? (
           <div className='loading'>
             <h1>Loading the table. Wait...</h1>
