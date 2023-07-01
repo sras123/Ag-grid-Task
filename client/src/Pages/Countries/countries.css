@@ -1,11 +1,68 @@
-.ag-theme-alpine-dark{
-    margin-top: 100px; 
+.content {
+    margin-top: 100px;
     padding: 20px;
 }
 
-.loading{
+.loading {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh; 
+    height: 50vh;
+}
+
+.modal-container {
+    margin-top: 100px;
+    padding: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: black;
+    position: relative;
+}
+
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #C0A416;
+    color: white;
+    border: none;
+}
+
+.box-side {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #D2C9A2;
+    color: black;
+    border: none;
+}
+
+.close-button {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+
+}
+.name{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: #C0A416;
 }
