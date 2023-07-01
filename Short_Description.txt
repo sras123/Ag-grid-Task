@@ -10,7 +10,8 @@ capital, region, and languages.There is a close button on the modal as well.
 This app contains two pages "Main.js" which is also a landing page when we start the server we are redirected to this page with route "/". The main 
 page contains the welcoming message to the app which is written at the center of the page. The next page "Countries.js" which contains the list of 
 countries details are fetched from api and kept using Ag grid in table format. Both of the pages contains Navbar for navigating from one 
-page to another. Navbar is one of the Components which is imported in every pages and placed at the top the page which is made using material Ui 
+page to another. Navbar is one of the Component which is imported inside the index.js and kept it above the app component so that navbar renders 
+inside every page. Navbar is made using material UI library.
 library.
 
 I got to learn about new things like Ag-grid and React-modal. I enjoyed making modal pop up. Also, I managed to replicate the given figma design
