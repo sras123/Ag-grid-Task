@@ -1,0 +1,17 @@
+This react app has used libraries like Ag-grid, axios and material ui. Basically, Ag-grid is a grid library for Javascript such as React, Angular,
+Vue and others. Mainly, Ag-grid is used for features like sorting, filtering, grouping large amount of data in table format. In React, we can use 
+props like rowData and columnDefs to define the data and the columns of the grid.
+
+The provided code creates a React application that uses the Ag-Grid module to display a table of country details. It retrieves the information
+from the 'https://restcountries.com/v3.1/all' API which was provided in the coding task and renders it in the grid. When a row of any country is 
+clicked, a modal window presenting more information about the chosen country opens up. The modal contains details such the country's common name, 
+capital, region, and languages.There is a close button on the modal as well.
+ 
+This app contains two pages "Main.js" which is also a landing page when we start the server we are redirected to this page with route "/". The main 
+page contains the welcoming message to the app which is written at the center of the page. The next page "Countries.js" which contains the list of 
+countries details are fetched from api and kept using Ag grid in table format. Both of the pages contains Navbar for navigating from one 
+page to another. Navbar is one of the Components which is imported in every pages and placed at the top the page which is made using material Ui 
+library.
+
+I got to learn about new things like Ag-grid and React-modal. I enjoyed making modal pop up. Also, I managed to replicate the given figma design
+to some level. Thank you for providing me with such educational task.
