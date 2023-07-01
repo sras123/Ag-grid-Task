@@ -1,7 +1,6 @@
 import React from 'react';
 import './countries.css';
-import { useState, useEffect } from 'react';
-import Navbar from '../../Components/Navbar';
+import { useState, useEffect } from 'react'
 import { AgGridReact } from "ag-grid-react";
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
@@ -56,7 +55,6 @@ const Countries = () => {
 
   return (
     <div className='content'>
-      <Navbar />
       <div className='ag-theme-alpine-dark' style={{ height: 500 }}>
         {loading ? (
           <div className='loading'>
